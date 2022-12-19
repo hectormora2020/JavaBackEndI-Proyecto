@@ -1,0 +1,110 @@
+[18/12/2022 08:02:00 p. m.] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[18/12/2022 08:02:00 p. m.] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[18/12/2022 08:02:00 p. m.] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[18/12/2022 08:08:20 p. m.] [com.bedu.radiologia.RadiologiaApplication] [INFO ] - Starting RadiologiaApplication using Java 17.0.5 with PID 8292 (C:\bedu\JavaBackEndI-Proyecto\target\classes started by hector in C:\bedu\JavaBackEndI-Proyecto)
+[18/12/2022 08:08:20 p. m.] [com.bedu.radiologia.RadiologiaApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[18/12/2022 08:08:21 p. m.] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[18/12/2022 08:08:21 p. m.] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
+[18/12/2022 08:08:21 p. m.] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port(s): 8080 (http)
+[18/12/2022 08:08:21 p. m.] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
+[18/12/2022 08:08:21 p. m.] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.1]
+[18/12/2022 08:08:21 p. m.] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
+[18/12/2022 08:08:21 p. m.] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 1427 ms
+[18/12/2022 08:08:22 p. m.] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[18/12/2022 08:08:22 p. m.] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.5.Final
+[18/12/2022 08:08:22 p. m.] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[18/12/2022 08:08:22 p. m.] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[18/12/2022 08:08:22 p. m.] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bd92538
+[18/12/2022 08:08:22 p. m.] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[18/12/2022 08:08:22 p. m.] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[18/12/2022 08:08:23 p. m.] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[18/12/2022 08:08:23 p. m.] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[18/12/2022 08:08:24 p. m.] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[18/12/2022 08:08:24 p. m.] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port(s): 8080 (http) with context path ''
+[18/12/2022 08:08:24 p. m.] [com.bedu.radiologia.RadiologiaApplication] [INFO ] - Started RadiologiaApplication in 4.699 seconds (process running for 5.227)
+[18/12/2022 08:08:48 p. m.] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[18/12/2022 08:08:48 p. m.] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
+[18/12/2022 08:08:48 p. m.] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 0 ms
+[18/12/2022 08:09:46 p. m.] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [WARN ] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+[18/12/2022 08:16:31 p. m.] [org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver] [WARN ] - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+[18/12/2022 08:18:39 p. m.] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Closing JPA EntityManagerFactory for persistence unit 'default'
+[18/12/2022 08:18:39 p. m.] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown initiated...
+[18/12/2022 08:18:39 p. m.] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Shutdown completed.
+[18/12/2022 08:19:53 p. m.] [com.bedu.radiologia.RadiologiaApplication] [INFO ] - Starting RadiologiaApplication using Java 17.0.5 with PID 17760 (C:\bedu\JavaBackEndI-Proyecto\target\classes started by hector in C:\bedu\JavaBackEndI-Proyecto)
+[18/12/2022 08:19:53 p. m.] [com.bedu.radiologia.RadiologiaApplication] [INFO ] - No active profile set, falling back to 1 default profile: "default"
+[18/12/2022 08:19:54 p. m.] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[18/12/2022 08:19:54 p. m.] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [INFO ] - Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+[18/12/2022 08:19:54 p. m.] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat initialized with port(s): 8080 (http)
+[18/12/2022 08:19:54 p. m.] [org.apache.catalina.core.StandardService] [INFO ] - Starting service [Tomcat]
+[18/12/2022 08:19:54 p. m.] [org.apache.catalina.core.StandardEngine] [INFO ] - Starting Servlet engine: [Apache Tomcat/10.1.1]
+[18/12/2022 08:19:55 p. m.] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring embedded WebApplicationContext
+[18/12/2022 08:19:55 p. m.] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [INFO ] - Root WebApplicationContext: initialization completed in 1433 ms
+[18/12/2022 08:19:55 p. m.] [org.hibernate.jpa.internal.util.LogHelper] [INFO ] - HHH000204: Processing PersistenceUnitInfo [name: default]
+[18/12/2022 08:19:55 p. m.] [org.hibernate.Version] [INFO ] - HHH000412: Hibernate ORM core version 6.1.5.Final
+[18/12/2022 08:19:55 p. m.] [org.hibernate.orm.deprecation] [WARN ] - HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+[18/12/2022 08:19:55 p. m.] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Starting...
+[18/12/2022 08:19:56 p. m.] [com.zaxxer.hikari.pool.HikariPool] [INFO ] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fb22ae3
+[18/12/2022 08:19:56 p. m.] [com.zaxxer.hikari.HikariDataSource] [INFO ] - HikariPool-1 - Start completed.
+[18/12/2022 08:19:56 p. m.] [SQL dialect] [INFO ] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[18/12/2022 08:19:56 p. m.] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [INFO ] - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[18/12/2022 08:19:56 p. m.] [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [INFO ] - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[18/12/2022 08:19:57 p. m.] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [WARN ] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[18/12/2022 08:19:57 p. m.] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [INFO ] - Tomcat started on port(s): 8080 (http) with context path ''
+[18/12/2022 08:19:57 p. m.] [com.bedu.radiologia.RadiologiaApplication] [INFO ] - Started RadiologiaApplication in 4.387 seconds (process running for 4.908)
+[18/12/2022 08:21:23 p. m.] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [INFO ] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[18/12/2022 08:21:23 p. m.] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Initializing Servlet 'dispatcherServlet'
+[18/12/2022 08:21:23 p. m.] [org.springframework.web.servlet.DispatcherServlet] [INFO ] - Completed initialization in 1 ms
+[18/12/2022 08:22:54 p. m.] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] [ERROR] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.Exception: No existe paciente] with root cause
+java.lang.Exception: No existe paciente
+	at com.bedu.radiologia.service.impl.PacienteServiceImpl.update(PacienteServiceImpl.java:49)
+	at com.bedu.radiologia.controller.PacienteController.update(PacienteController.java:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:207)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:152)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1080)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:973)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1003)
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:917)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:734)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:880)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:814)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:223)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:185)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:158)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:119)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:400)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1739)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
